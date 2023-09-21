@@ -1,2 +1,0 @@
-title=Add Text Record
-info=

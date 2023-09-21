@@ -1,2 +1,0 @@
-title=Update Text Record
-info=
