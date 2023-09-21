@@ -2,7 +2,7 @@
 {% extends "base.html" %}
 
 {% block css %}
-<link rel="stylesheet" href="css/display_fruit_page.css?version={{ g.version | urlencode }}">
+<link rel="stylesheet" href="css/ice_page.css?version={{ g.version | urlencode }}">
 {% endblock %}
 
 {% block title %}
@@ -17,12 +17,11 @@
 
     <p>{{ text['info'] }}</p>
     <!--Your page's HTML goes here.-->
-    <p>!!! THIS IS THE CARROT WORKFLOW !!!</p>
     {% from "form_helper.html" import render_form %}
-    {{ render_form(form, action=url_for('display_fruitdisplay_fruit_display_fruit_page_form'), id="display_fruit_page_form") }}
+    {{ render_form(form, action=url_for('WaterWater_ice_page_form'), id="ice_page_form") }}
 
 {% endblock %}
 
 {% block scripts %}
-<script src="js/display_fruit_page.js?version={{ g.version | urlencode }}"></script>
+<script src="js/ice_page.js?version={{ g.version | urlencode }}"></script>
 {% endblock %}

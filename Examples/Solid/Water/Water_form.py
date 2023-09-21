@@ -18,8 +18,8 @@ class GenericFormTemplate(GatewayForm):
     Note:
         When updating the form, remember to make the corresponding changes to the workflow pages
     """
-    workflow_name = 'display_fruit'
-    workflow_permission = 'display_fruit_page'
+    workflow_name = 'Water'
+    workflow_permission = 'ice_page'
     configuration = Configuration(
         workflow_name=workflow_name,
         permissions=workflow_permission,
