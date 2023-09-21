@@ -7,6 +7,6 @@ sub_pages = [
         'name'        : 'display_fruit_page',
         'title'       : u'display_fruit',
         'endpoint'    : 'display_fruit/display_fruit_endpoint',
-        'description' : u'Displays a banana'
+        'description' : u'Displays a carrot'
     },
 ]
