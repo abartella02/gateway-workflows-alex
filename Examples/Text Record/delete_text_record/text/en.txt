@@ -1,2 +1,0 @@
-title=Delete Text Record
-info=
