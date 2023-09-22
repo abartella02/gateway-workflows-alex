@@ -1,5 +1,5 @@
 {
-	"workflows": ["Examples"],
+	"workflows": ["Examples", "Gases"],
 	"customizations": "customizations",
 	"snapshots": "snapshots"
 }
